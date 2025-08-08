@@ -103,34 +103,34 @@ export function Projects() {
       <div className="grid gap-6 md:gap-8 lg:gap-10 xl:grid-cols-2 max-w-[90%] md:max-w-[80%] lg:max-w-[70%] mx-auto">
         {[
           {
-            title: "Shopping WebPage 🛍️",
-            description: "A E-shopping website contains connected Product and cart Page for customers in which they can add or remove products for purchasing.",
-            imageSrc: "/assessts/shopping-webpage.png",
-            githubLink: "https://github.com/thepiyush-303/",
-            liveLink: "https://shopping-website-self.vercel.app/",
+            title: "Trip Helper App",
+            description: "A Trip planning app that helps users organize their travel itineraries.",
+            imageSrc: "/assessts/trip-helper-icon.png",
+            githubLink: "https://github.com/RocketChat/Apps.Trip.Helper",
+            liveLink: "https://open.rocket.chat/",
             displayIds: ID1,
           },
           {
             title: "Blog Website 📰",
             description: "A Blog website contains different pages for Blogs, categories and tags created by ContextAPI For state management.",
-            imageSrc: "/assessts/blog-website.png",
+            imageSrc: "/assessts/blog.png",
             githubLink: "https://github.com/thepiyush-303/blog-site",
             liveLink: "https://piyush-dailyblog.vercel.app/",
             displayIds: ID2,
           },
           {
-            title: "E-learning Platform 🧑🏽‍💻",
-            description: "A online platform for learning through different Courses.",
-            imageSrc: "/assessts/e-learning-platform.png",
-            githubLink: "https://github.com/thepiyush-303",
-            liveLink: "https://e-learning-web-page.vercel.app/",
+            title: "Portfolio Website",
+            description: "A online platform for showcasing my projects and skills.",
+            imageSrc: "/assessts/portfolio-dashboard.png",
+            githubLink: "https://github.com/thepiyush-303/Portfolio",
+            liveLink: "https://portfolio-rmlgfyjrx-thepiyush-303s-projects.vercel.app/",
             displayIds: ID3,
           },
           {
             title: "Weather Detector ☁️",
             description: "It include Avg-time weather updates, with accurate forecasts, and a user-friendly interface.",
             imageSrc: "/assessts/weather-webpage.png",
-            githubLink: "https://github.com/thepiyush-303/Weather-detector/tree/main",
+            githubLink: "https://github.com/thepiyush-303/Weather-detector/",
             liveLink: "https://weather-detector-seven.vercel.app/",
             displayIds: ID4,
           },
@@ -160,7 +160,7 @@ export function Projects() {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-10">
-                <Link href={githubLink} passHref>
+                <Link href={githubLink} passHref target="_blank" rel="noopener noreferrer">
                   <CardItem
                     translateZ={20}
                     as="button"
@@ -169,7 +169,7 @@ export function Projects() {
                     Github
                   </CardItem>
                 </Link>
-                <Link href={liveLink} passHref>
+                <Link href={liveLink} passHref target="_blank" rel="noopener noreferrer">
                   <CardItem
                     translateZ={20}
                     as="button"

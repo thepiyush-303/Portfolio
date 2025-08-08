@@ -15,10 +15,10 @@ function Navbar({ className }: { className?: string }) {
         <div className="flex flex-col md:flex-row items-center md:gap-28 sm:gap-3 gap-2">
           <div className="flex items-start justify-start p-1">
             <Image
-              src="/assessts/yashLogo.png"
+              src="/assessts/piyush-logo.png"
               height={70}
               width={70}
-              className="h-30 cursor-pointer"
+              className="h-30 cursor-pointer rounded-full"
               alt="Piyush Logo"
             />
           </div>
@@ -32,23 +32,11 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="Projects">
               <div className="md:text-sm grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-10 text-xs  p-4 pl-10  md:pl-28 pt-9 pb-2">
-                <ProductItem 
-                  title="Github Detector"
-                  href="https://github-detector-gold.vercel.app/"
-                  src="/assessts/github-detector.png"
-                  description="Search any Github Account including repos and contributions."
-                />
                 <ProductItem
                   title="Password Generator"
                   href="https://password-generator-inky-two.vercel.app/"
                   src="/assessts/pass-generator.png"
                   description="Create a strong password for your data."
-                />
-                <ProductItem
-                  title="Modern Chair Webpage"
-                  href="https://modern-chair-website-nine.vercel.app/"
-                  src="/assessts/modern-chair.png"
-                  description="Explore the page of Modern Chairs with different shades."
                 />
                 <div className="text-lg md:text-xl mx-auto pt-1">
                   <HoveredLink href="https://github.com/thepiyush-303/"> More Projects...</HoveredLink>

@@ -35,7 +35,7 @@ export function Background() {
         <br />
         <br />
         <div>
-          <Link href="https://res.cloudinary.com/dmpj1kynh/image/upload/v1754601532/Resume_Piyush_Bhatt_u8ti5o.pdf" passHref>
+          <Link href="https://res.cloudinary.com/dmpj1kynh/image/upload/v1754601532/Resume_Piyush_Bhatt_u8ti5o.pdf" passHref target="_blank" rel="noopener noreferrer">
             <Button
               borderRadius="1.75rem"
               className="bg-black z-[1] cursor-pointer font-bold text-white dark:border-neutral-200 border-slate-800 text-[16px]"
