@@ -4,4 +4,4 @@ A special shoutout to   Manu Arora. Their innovative work with Framer Motion has
 
 # Portfolio: Piyush Bhatt
 
-![Portfolio Screenshot](./assessts/portfolio-dashboard.png)
+![Portfolio Screenshot](./public/assessts/portfolio-dashboard.png)
