@@ -13,7 +13,7 @@ const content = [
       "I have a keen interest in open source technologies and actively contribute to various projects.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
-        <Link href="https://github.com/thepiyush-303" passHref res>
+        <Link href="https://github.com/thepiyush-303" passHref target="_blank" rel="noopener noreferrer">
           <Image
             src="/assessts/github-profile.png"
             width={300}
